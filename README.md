@@ -1,9 +1,11 @@
 # Distribution
 
-Some simple macros for Fiji/ImageJ that we are using in the lab.
+The script was develloped for ImageJ to estimate the penetration profiles of fluorophores in tumor spheroids. The macros draws concentric circles
+and estimate the mean intensity for each rim obtained. 
 
-Most of these tools are available via the quantixed ImageJ update site. Instructions for how to follow a 3rd party update site are here. This is the best way to install these macros and maintain the latest versions.
+1. To install the macros: Open Fiji ImageJ - Plugins - Marcos - Install.
 
-If you want to install manually, add the contents of macros and scripts to the corresponding directories in your Fiji/ImageJ installation.
+2. Before to use the macros you need to open the image and draw oval selection. 
+3. To run the macros: Plugins - Macros - spheroids_penetration_profile
 
-After installation, all macros can be found under the menu item called LabCode.
+The resolution (n) should be asjusted depending on the size and resolution of image in order to reduce the noise.
