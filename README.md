@@ -11,6 +11,8 @@ To install the macros: Open Fiji ImageJ - Plugins - Marcos - Install.
 1. Run the macro (Plugins - Macros - spheroids_penetration_profile)
 1. Export the data (Data - Save data or Data - Copy data set)
 
+### Resolution
+
 The resolution (n) should be asjusted depending on the size and resolution of image in order to reduce the noise.
 
 To change the resolution: 
